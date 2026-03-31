@@ -7,7 +7,7 @@ An elegant and responsive digital tools marketplace where users can explore prem
 ## Tech Stack
 
 - React
-- Vite
+- JavaScript(ES6+)
 - Tailwind CSS
 - Axios
 - React Icons
