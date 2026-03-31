@@ -1,16 +1,42 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant and responsive digital tools marketplace where users can explore premium products, add items to cart, and complete checkout with real-time visual feedback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- React Icons
+- React Toastify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Smart Cart Experience**  
+   Users can add products to cart, remove items, and checkout instantly.
+
+2. **Interactive Cart Feedback**  
+   Toast notifications appear on add, remove, and checkout actions for a smooth UX.
+
+3. **Fully Responsive UI**  
+   Optimized layout for mobile, tablet, and desktop across all sections.
+
+---
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Author
+
+Built with care for Assignment-6.

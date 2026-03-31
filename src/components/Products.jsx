@@ -1,6 +1,7 @@
 import React, { forwardRef, useEffect, useState } from "react";
 import axios from "axios";
 import ProductCard from "./ProductCard";
+import { toast } from "react-toastify";
 
 const Products = ({ cartProducts, setCartProducts, activeTab, onTabChange }, ref) => {
   const [products, setProducts] = useState([]);
@@ -28,10 +29,17 @@ const Products = ({ cartProducts, setCartProducts, activeTab, onTabChange }, ref
       }
       return [...prev, { ...product, quantity: 1 }];
     });
+    toast.success(`${product.name} added to cart`);
   };
 
-  const removeFromCart = (productId) => {
+  const removeFromCart = (productId, productName) => {
     setCartProducts((prev) => prev.filter((item) => item.id !== productId));
+    toast.info(`${productName} removed from cart`);
+  };
+
+  const handleCheckout = () => {
+    setCartProducts([]);
+    toast.success("Checkout complete. Cart cleared!");
   };
 
   const total = cartProducts.reduce(
@@ -108,7 +116,7 @@ const Products = ({ cartProducts, setCartProducts, activeTab, onTabChange }, ref
                       </div>
                     </div>
                     <button
-                      onClick={() => removeFromCart(item.id)}
+                      onClick={() => removeFromCart(item.id, item.name)}
                       className="text-[#FF2D8D] text-sm cursor-pointer hover:underline"
                     >
                       Remove
@@ -121,7 +129,7 @@ const Products = ({ cartProducts, setCartProducts, activeTab, onTabChange }, ref
                 <span className="text-lg sm:text-xl font-bold text-gray-900">${total}</span>
               </div>
               <button
-                onClick={() => setCartProducts([])}
+                onClick={handleCheckout}
                 className="mt-4 w-full bg-linear-to-r from-purple-600 via-violet-600 to-violet-600 text-white py-2 rounded-full cursor-pointer hover:scale-[1.01] transition-all duration-300"
               >
                 Proceed To Checkout
