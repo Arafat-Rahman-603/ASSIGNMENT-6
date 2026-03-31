@@ -3,12 +3,13 @@ import { FaCheck } from "react-icons/fa6";
 
 export default function Priceing() {
   return (
-    <section className='py-30'>
+    <>
+    <section className='py-14 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-20'>
         <div className="flex flex-col items-center gap-2">
-            <h2 className="text-[3rem] font-bold">Simple, Transparent Pricing</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-[3rem] font-bold text-center">Simple, Transparent Pricing</h2>
             <p className="text-[#627382] text-center">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-        <div className='flex items-center justify-center gap-6 m-10 px-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-6 mt-10'>
             <div className='flex hover:scale-105 transition-all duration-300 flex-col w-full items-start gap-2 border-2 border-gray-200 rounded-xl p-4 '>
                 <p className='text-2xl font-semibold'>Starter</p>
                 <p className="text-[#627382]">Perfect for getting started</p>
@@ -34,11 +35,11 @@ export default function Priceing() {
                 </div>
 
 
-                <button className="px-4 py-2 bg-[#4F39F6] mt-17 rounded-full text-white text-lg cursor-pointer hover:scale-105 transition-all duration-300 w-full">Get Started Free</button>
+                <button className="px-4 py-2 bg-[#4F39F6] mt-8 rounded-full text-white text-lg cursor-pointer hover:scale-105 transition-all duration-300 w-full">Get Started Free</button>
             </div>
 
             <div className='flex relative flex-col hover:scale-105 transition-all duration-300 bg-gradient-to-r from-purple-600 via-violet-600 to-violet-600 w-full items-start gap-2 border-2 border-gray-200 rounded-xl p-4 '>
-                <p className="absolute top-[-3%] bg-yellow-200 right-[32%] bg-white px-2 py-1 rounded-xl text-[#BB4D00] font-semibold">Most Popular</p>
+                <p className="absolute top-[-3%] left-1/2 -translate-x-1/2 bg-white px-2 py-1 rounded-xl text-[#BB4D00] font-semibold text-sm bg-yellow-200 whitespace-nowrap">Most Popular</p>
                 <p className='text-2xl font-semibold text-white'>Pro</p>
                 <p className=" text-gray-300">Best for professionals</p>
                 <h2 className="text-3xl font-semibold my-4 text-white">$29<span className="text-sm font-normal">/month</span></h2>
@@ -118,5 +119,19 @@ export default function Priceing() {
 
         </div>
     </section>
+
+    <section className='bg-linear-to-r from-purple-600 via-violet-600 to-violet-600 py-14 sm:py-20 px-4 sm:px-6 lg:px-20 flex flex-col justify-center items-center'>
+       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-white">Ready to Transform Your Workflow?</h2>
+       
+       <p className="text-center text-gray-200 mt-6">Join thousands of professionals who are already using Digitools to work smarter.</p>
+       <p className="txt-center text-gray-200">Start your free trial today.</p>
+       
+       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-10 mb-4 w-full sm:w-auto">
+        <button className="px-4 py-2 bg-gray-200 text-[#4F39F6] rounded-full text-sm sm:text-lg cursor-pointer hover:scale-105 transition-all duration-300">Explore Products</button>
+        <button className="px-4 py-2 border border-gray-200 rounded-full text-white text-sm sm:text-lg cursor-pointer hover:scale-105 transition-all duration-300">View Pricing</button>
+       </div>
+       <p className="text-gray-200 text-center text-sm sm:text-base">14-day free trial • No credit card required • Cancel anytime</p>
+    </section>
+    </>
   )
 }

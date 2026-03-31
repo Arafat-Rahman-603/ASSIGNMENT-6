@@ -1,0 +1,98 @@
+[
+  {
+    "id": "p1",
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "image": "/assets/products/design-tool.png",
+    "features": ["20+ templates", "Basic customization", "Export to PDF"],
+    "icon": "file-text"
+  },
+  {
+    "id": "p2",
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools to craft job-winning resumes with ease.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "image": "/assets/products/operation.png",
+    "features": ["100+ templates", "ATS optimization", "Cover letter builder"],
+    "icon": "award"
+  },
+  {
+    "id": "p3",
+    "name": "Career Boost Plan",
+    "description": "All-in-one solution for job seekers with premium features.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "image": "/assets/products/portfolio.png",
+    "features": ["Unlimited resumes", "LinkedIn optimization", "Priority support"],
+    "icon": "rocket"
+  },
+  {
+    "id": "p4",
+    "name": "Portfolio Builder",
+    "description": "Create stunning personal portfolios to showcase your work.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "image": "/assets/products/social-media.png",
+    "features": ["Custom domains", "Responsive design", "Drag & drop editor"],
+    "icon": "layout"
+  },
+  {
+    "id": "p5",
+    "name": "Interview Prep Pack",
+    "description": "Prepare for interviews with expert-curated questions and tips.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "image": "/assets/products/writing_2327400 1.png",
+    "features": ["Common Q&A", "Mock interviews", "Expert tips"],
+    "icon": "message-circle"
+  },
+  {
+    "id": "p6",
+    "name": "AI Resume Writer",
+    "description": "Generate optimized resumes instantly using AI.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "image": "/assets/products/design-tool.png",
+    "features": ["AI-generated content", "Keyword optimization", "Real-time editing"],
+    "icon": "cpu"
+  },
+  {
+    "id": "p7",
+    "name": "Job Tracker Pro",
+    "description": "Track and manage all your job applications in one place.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "image": "/assets/products/operation.png",
+    "features": ["Application tracking", "Status updates", "Reminders"],
+    "icon": "check-square"
+  },
+  {
+    "id": "p8",
+    "name": "Ultimate Career Suite",
+    "description": "Complete toolkit for resumes, portfolios, and job tracking.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "image": "/assets/products/portfolio.png",
+    "features": ["All features included", "Premium templates", "24/7 support"],
+    "icon": "briefcase"
+  }
+]
