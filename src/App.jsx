@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import User from './components/User'
 import Products from './components/Products'
 import UseGuide from './components/UseGuide'
+import Priceing from './components/Priceing'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <User />
       <Products />
       <UseGuide />
+      <Priceing />
     </div>
   )
 }
