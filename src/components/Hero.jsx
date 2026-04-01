@@ -4,6 +4,14 @@ export default function Hero() {
   return (
     <section className="grid gap-10 md:grid-cols-2 grid-cols-1 justify-between items-center px-4 sm:px-6 lg:px-20 py-12 sm:py-16 lg:py-20 border-b border-gray-200">
       <div>
+        <div className="bg-[#E1E7FF] w-fit px-4 py-2 rounded-full mb-6">
+          <div className="flex items-center gap-2">
+            <div className="p-1 bg-linear-to-r from-purple-100 via-violet-100 to-violet-100 rounded-full">
+            <div className="p-1 bg-linear-to-r from-purple-300 via-violet-300 to-violet-300 rounded-full">
+            <div className="w-2 h-2 bg-linear-to-r from-purple-600 via-violet-600 to-violet-600 rounded-full"></div></div></div>
+            <p className="text-[#4F39F6] font-semibold">New: AI-Powered Tools Available</p>
+          </div>
+        </div>
         <h2 className="text-4xl sm:text-5xl lg:text-[4rem] font-bold leading-tight lg:leading-[80px]">
           Supercharge Your Digital Workflow
         </h2>
